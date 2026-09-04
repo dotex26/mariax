@@ -1,10 +1,31 @@
-MariaX
+MIT License
+
+Copyright (c) 2026 Krishna
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
 
 THIRD-PARTY SOFTWARE
 
 MariaX does not bundle the servers it manages. On first run it downloads them
 from their vendors into its bin\ folder. Those components are not covered by
-this notice and remain subject to their own licences:
+the licence above and remain subject to their own:
 
   Nginx           2-clause BSD          https://nginx.org/LICENSE
   PHP             PHP License v3.01     https://www.php.net/license/
@@ -15,14 +36,3 @@ this notice and remain subject to their own licences:
   Adminer         Apache 2.0 or GPL v2  https://www.adminer.org/
   phpRedisAdmin   CC BY 3.0             https://github.com/erikdubbelboer/phpRedisAdmin
   Predis          MIT                   https://github.com/predis/predis
-
-MariaX itself is built with Go, Wails and Svelte, whose licences are included
-in the compiled binary's dependency metadata.
-
-THIS SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.

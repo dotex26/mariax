@@ -82,6 +82,8 @@ mariaxctl smoke        end-to-end self test
 
 ---
 
-MariaX does not bundle the servers it manages; it downloads them from their
-vendors on first run, verifying checksums where published. Each remains under
-its own licence — see `LICENSE.txt`.
+MariaX is released under the MIT licence — see `LICENSE.txt`.
+
+It does not bundle the servers it manages; it downloads them from their
+vendors on first run, verifying checksums where published. Each of those
+remains under its own licence.
