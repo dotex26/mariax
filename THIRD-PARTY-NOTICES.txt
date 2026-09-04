@@ -1,0 +1,18 @@
+THIRD-PARTY SOFTWARE
+
+MariaX does not bundle the servers it manages. On first run it downloads them
+from their vendors into its bin\ folder. Those components are not covered by
+the MIT licence in LICENSE and remain subject to their own:
+
+  Nginx           2-clause BSD          https://nginx.org/LICENSE
+  PHP             PHP License v3.01     https://www.php.net/license/
+  MariaDB Server  GPL v2                https://mariadb.com/kb/en/mariadb-licenses/
+  PostgreSQL      PostgreSQL License    https://www.postgresql.org/about/licence/
+  Redis (Windows) 3-clause BSD          https://github.com/tporadowski/redis
+  phpMyAdmin      GPL v2                https://www.phpmyadmin.net/license/
+  Adminer         Apache 2.0 or GPL v2  https://www.adminer.org/
+  phpRedisAdmin   CC BY 3.0             https://github.com/erikdubbelboer/phpRedisAdmin
+  Predis          MIT                   https://github.com/predis/predis
+
+MariaX itself is built with Go, Wails and Svelte, whose licences are included
+in the compiled binary's dependency metadata.
